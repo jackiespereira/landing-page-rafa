@@ -134,8 +134,11 @@ body {
     }
 
     .header-menu {
-        display:inline-flexbox;
-        gap: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 0;    
     }
 
     .header-menu-item {
